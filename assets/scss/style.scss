@@ -229,3 +229,6 @@ code {
     }
   }
 }
+
+.img { background-image: url({{ "images/logo.png" | absURL }}) }
+.avif .img { background-image: url({{ "images/logo.avif" | absURL }})}
