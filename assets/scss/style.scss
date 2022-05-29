@@ -230,5 +230,10 @@ code {
   }
 }
 
-.img { background-image: url({{ "images/logo.png" | absURL }}) }
-.avif .img { background-image: url({{ "images/logo.avif" | absURL }})}
+.default-logo {
+  background-image: url({{ "images/logo.png" | absURL }})
+}
+
+.avif-logo {
+  background-image: url({{ "images/logo.avif" | absURL }})
+}
